@@ -9,7 +9,9 @@
 void print_alphabet(void)
 
 {
-	while ("a" <= 'z')
+	char c = 'a';
+
+	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
