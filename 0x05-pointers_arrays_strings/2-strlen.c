@@ -9,8 +9,7 @@
 
 int _strlen(char *s)
 {
-	for(int i = 0;i<strlen(s); i++) {
-		int length = [i];
-	}
-	return (length);
+	int length = strlen(str);
+	 printf("%d\n", length);
+	return (0);
 }
