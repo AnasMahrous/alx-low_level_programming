@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	char num = 57; /*Initialize num to 0*/
-
+	char num = 57;
 	for(char i='0';i<='f';i++){
 		if(i<58||i>96){
 			putchar(i);
